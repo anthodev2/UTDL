@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{0696F6C7-B044-42D2-B245-5DFB8A02C562}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B206200C-8512-44E4-B141-614744D2B8C7} = {B206200C-8512-44E4-B141-614744D2B8C7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{98B29C80-30F2-4D15-884F-C2D2E90E1EB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B206200C-8512-44E4-B141-614744D2B8C7} = {B206200C-8512-44E4-B141-614744D2B8C7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLapin", "LibLapin\LibLapin.csproj", "{B206200C-8512-44E4-B141-614744D2B8C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0696F6C7-B044-42D2-B245-5DFB8A02C562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0696F6C7-B044-42D2-B245-5DFB8A02C562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0696F6C7-B044-42D2-B245-5DFB8A02C562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0696F6C7-B044-42D2-B245-5DFB8A02C562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B29C80-30F2-4D15-884F-C2D2E90E1EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B29C80-30F2-4D15-884F-C2D2E90E1EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B29C80-30F2-4D15-884F-C2D2E90E1EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B29C80-30F2-4D15-884F-C2D2E90E1EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B206200C-8512-44E4-B141-614744D2B8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B206200C-8512-44E4-B141-614744D2B8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B206200C-8512-44E4-B141-614744D2B8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B206200C-8512-44E4-B141-614744D2B8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44FDA451-69A1-4D61-808E-3FD875EA2A91}
+	EndGlobalSection
+EndGlobal
