@@ -49,21 +49,7 @@ alter table Lapin add index idx_idCourse (idCourse);
 
 ## 👤 Organisateur : diagramme de cas d'utilisation
 
-```plantuml
-@startuml cas d'utilisation
-Organisateur as Organisateur
-rectangle UltraTrail {
-    Organisateur -- (Ajouter Course)
-    Organisateur -- (Modifier Course)
-    Organisateur -- (Supprimer Course)
-    Organisateur -- (Inscrire des Lapins à une course)
-    (Inscrire des Lapins à une course)..>(Sélectionner une course):<<include>>
-    (Inscrire des Lapins à une course)<..(Désincrire):<<extends>>
-    (Inscrire des Lapins à une course)<..(Modifier l'inscription):<<extends>>
-    (Inscrire des Lapins à une course)<..(Supprimer une inscription):<<extends>>    
-}
-@enduml
-```
+![Diagramme de classes UML](diagramme%20de%20cas%20d'utilisation.png)
 
 
 ## 🔓 Connection à la base de donnée
