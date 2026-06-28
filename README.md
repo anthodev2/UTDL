@@ -49,7 +49,7 @@ alter table Lapin add index idx_idCourse (idCourse);
 
 ## 👤 Organisateur : diagramme de cas d'utilisation
 
-![Diagramme de classes UML](diagramme%20de%20cas%20d'utilisation.png)
+![Diagramme de cas d'utilisation](diagramme%20de%20cas%20d'utilisation.png)
 
 
 ## 🔓 Connection à la base de donnée
